@@ -1,0 +1,56 @@
+/*first*/
+#section{
+    background-color: #068efc;
+}
+
+@media screen and(min-width:768px){
+    #write{
+        font-size: 3.5em;
+      color: white;
+    word-spacing: 6px;
+    }
+  }
+     /* @media only screen and(min-width:318px){
+      #left{
+        width: 45px;
+      margin-left: -31px;
+      }
+      
+  }      */
+#write{
+  color: white;
+word-spacing: 5px;
+}
+
+#write2{
+    font-size: 1.1em;
+    word-spacing: 2px;
+    color: white;
+}
+
+#show-sidebar{
+  transform: translateX(0);
+  transition: .5s;
+}
+#hide-sidebar{
+  transform: translateX(100vw);
+  transition: .2s;
+}
+/*Second*/
+#write3{
+  word-spacing: 0.5px;
+}
+
+#write4{
+font-size: 1.2em;
+}
+
+#write5{
+  font-size: 0.9em;
+  word-spacing: 2px;
+}
+
+/*Third*/
+#section3{
+  background-color: #23304c;
+}
